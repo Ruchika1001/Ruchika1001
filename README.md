@@ -1,0 +1,201 @@
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Hi+%F0%9F%91%8B+I'm+Ruchika;7.5K%2B+contributions+and+counting;12+years+of+building+on+GitHub" alt="Typing SVG" />
+</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Contributions-7.5K-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="contributions"/>
+  <img src="https://img.shields.io/badge/Commits-2.8K-00B4D8?style=for-the-badge&logo=git&logoColor=white" alt="commits"/>
+  <img src="https://img.shields.io/badge/PRs%20Merged-94.9%25-2EC4B6?style=for-the-badge&logo=git-merge&logoColor=white" alt="merge rate"/>
+  <img src="https://img.shields.io/badge/Streak-24%20days-FF6B6B?style=for-the-badge&logo=fire&logoColor=white" alt="streak"/>
+  <img src="https://img.shields.io/badge/Reviews-678-C77DFF?style=for-the-badge&logo=codereview&logoColor=white" alt="reviews"/>
+</p>
+
+---
+
+## 📊 Dashboard — 2016 to 2026
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### 🔥 7,522
+**Total Contributions**
+
+</td>
+<td align="center" width="25%">
+
+### 💻 2,836
+**Commits**
+
+</td>
+<td align="center" width="25%">
+
+### 🔀 1,557 / 1,640
+**PRs Merged / Opened**
+
+</td>
+<td align="center" width="25%">
+
+### 👁️ 678
+**Code Reviews**
+
+</td>
+</tr>
+<tr>
+<td align="center">
+
+### 📦 28
+**Repos Contributed To**
+
+</td>
+<td align="center">
+
+### 📅 43.2%
+**Active Day Rate**
+
+</td>
+<td align="center">
+
+### 📊 4.6
+**Avg / Active Day**
+
+</td>
+<td align="center">
+
+### 🧑‍🤝‍🧑 4
+**Followers**
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🔥 Streaks & Consistency
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+### 🏆 24 days
+**Longest Streak**
+<br/>
+<sub>2019-12-01 → 2019-12-24</sub>
+
+</td>
+<td align="center" width="33%">
+
+### ⚡ 3 days
+**Current Streak**
+<br/>
+<sub>Since 2026-06-08</sub>
+
+</td>
+<td align="center" width="33%">
+
+### 📅 43.2%
+**Active Day Rate**
+<br/>
+<sub>1,648 out of 3,814 days</sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📈 Activity Insights
+
+<table>
+<tr>
+<td width="50%">
+
+| Metric | Value |
+|:-------|------:|
+| **PR Merge Rate** | 94.9% (1,557 / 1,640) |
+| **Avg PRs / Month** | 11.4 |
+| **Reviews per PR** | 0.4 |
+| **Issues Opened** | 15 |
+| **Issues Closed** | 5 (33.3%) |
+
+</td>
+<td width="50%">
+
+| Insight | |
+|:--------|------:|
+| **Account Age** | 12 years (since 2014-04-26) |
+| **Avg / Active Day** | 4.6 contributions |
+| **Most Productive Day** | Wednesday |
+| **Busiest Month** | Dec 2019 (336) |
+| **Best Year** | 2020 (1,026 contributions) |
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Languages
+
+| Language | Distribution | % |
+|----------|-------------|--:|
+| `JavaScript` | `█████████████████████████` | **88.0%** |
+| `TypeScript` | `███░░░░░░░░░░░░░░░░░░░░░░` | **11.9%** |
+| `CSS` | `░░░░░░░░░░░░░░░░░░░░░░░░░` | **0.0%** |
+| `Dockerfile` | `░░░░░░░░░░░░░░░░░░░░░░░░░` | **0.0%** |
+
+---
+
+## 📅 Year-over-Year Activity
+
+| Year | Commits | PRs | Issues | Reviews | Total | Activity |
+|:----:|--------:|----:|-------:|--------:|------:|----------|
+| **2016** | 5 | 8 | 0 | 0 | **763** | `▓▓▓▓▓▓▓▓▓▓▓░░░░` |
+| **2017** | 0 | 0 | 0 | 0 | **966** | `▓▓▓▓▓▓▓▓▓▓▓▓▓▓░` |
+| **2018** | 21 | 0 | 0 | 0 | **659** | `▓▓▓▓▓▓▓▓▓▓░░░░░` |
+| **2019** | 526 | 171 | 4 | 13 | **714** | `▓▓▓▓▓▓▓▓▓▓░░░░░` |
+| **2020** | 478 | 296 | 0 | 252 | **1,026** | `▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **2021** | 59 | 57 | 0 | 33 | **154** | `▓▓░░░░░░░░░░░░░` |
+| **2022** | 301 | 236 | 0 | 120 | **659** | `▓▓▓▓▓▓▓▓▓▓░░░░░` |
+| **2023** | 232 | 206 | 9 | 55 | **505** | `▓▓▓▓▓▓▓░░░░░░░░` |
+| **2024** | 597 | 317 | 0 | 90 | **1,005** | `▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **2025** | 599 | 315 | 1 | 86 | **1,001** | `▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓` |
+| **2026** | 18 | 19 | 0 | 29 | **70** | `▓░░░░░░░░░░░░░░` |
+| **Total** | **2,836** | **1,625** | **14** | **678** | **7,522** | |
+
+---
+
+## 🏅 Top Repositories
+
+| # | Repository | ⭐ Stars | 🔨 Commits | Language |
+|:-:|------------|--------:|-----------:|:---------|
+| 1 | [**kult.backend**](https://github.com/KultCosmetics/kult.backend) | 1 | 1,532 | `Elixir` |
+| 2 | [**kult-operations-backend**](https://github.com/KultCosmetics/kult-operations-backend) | 0 | 569 | `Ruby` |
+| 3 | [**kult.contentful_moderator**](https://github.com/KultCosmetics/kult.contentful_moderator) | 0 | 280 | `Ruby` |
+| 4 | [**kult.dermat**](https://github.com/KultCosmetics/kult.dermat) | 0 | 179 | `Elixir` |
+| 5 | [**kult.android**](https://github.com/KultCosmetics/kult.android) | 0 | 69 | `Kotlin` |
+
+
+---
+
+## 📆 Weekly Activity Pattern
+
+```
+Mon  ████████████████░░░░  1,182
+Tue  ███████████████████░  1,402
+Wed  ████████████████████  1,459
+Thu  ███████████████████░  1,372
+Fri  ██████████████████░░  1,343
+Sat  █████░░░░░░░░░░░░░░░  374
+Sun  █████░░░░░░░░░░░░░░░  390
+```
+
+<sub>10.2% of contributions happen on weekends</sub>
+
+---
+
+<p align="center">
+  <sub>
+    Last updated: <b>2026-06-10 15:21 UTC</b> · Auto-generated by <a href="./scripts/main.py">GitHub Actions</a>
+  </sub>
+</p>
