@@ -64,23 +64,16 @@ def _build_year_table(yearly: list) -> str:
     max_total = max(y.total for y in yearly) if yearly else 1
 
     lines = []
-    lines.append("| Year | Commits | PRs | Issues | Reviews | Total | Activity |")
-    lines.append("|:----:|--------:|----:|-------:|--------:|------:|----------|")
+    lines.append("| Year | Total | Activity |")
+    lines.append("|:----:|------:|----------|")
 
     for ys in yearly:
         bar_len = round(ys.total / max_total * 15) if max_total > 0 else 0
         bar = "▓" * bar_len + "░" * (15 - bar_len)
-        lines.append(
-            f"| **{ys.year}** | {ys.commits:,} | {ys.prs:,} | {ys.issues:,} "
-            f"| {ys.reviews:,} | **{ys.total:,}** | `{bar}` |"
-        )
+        lines.append(f"| **{ys.year}** | **{ys.total:,}** | `{bar}` |")
 
-    tc = sum(y.commits for y in yearly)
-    tp = sum(y.prs for y in yearly)
-    ti = sum(y.issues for y in yearly)
-    tr = sum(y.reviews for y in yearly)
     tt = sum(y.total for y in yearly)
-    lines.append(f"| **Total** | **{tc:,}** | **{tp:,}** | **{ti:,}** | **{tr:,}** | **{tt:,}** | |")
+    lines.append(f"| **Total** | **{tt:,}** | |")
 
     return "\n".join(lines)
 

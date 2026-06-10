@@ -62,8 +62,34 @@
 </td>
 <td align="center">
 
-### 🧑‍🤝‍🧑 {{ stats.followers | fmt_number }}
-**Followers**
+### 🏆 {{ stats.streak.longest_days }} days
+**Longest Streak**
+
+</td>
+</tr>
+<tr>
+<td align="center">
+
+### ➕ {{ stats.lines_added | fmt_compact }}
+**Lines Added**
+
+</td>
+<td align="center">
+
+### ➖ {{ stats.lines_deleted | fmt_compact }}
+**Lines Deleted**
+
+</td>
+<td align="center">
+
+### 📐 {{ stats.net_lines | fmt_compact }}
+**Net Lines of Code**
+
+</td>
+<td align="center">
+
+### ⚡ {{ stats.streak.current_days }} days
+**Current Streak**
 
 </td>
 </tr>
@@ -115,8 +141,7 @@
 | **PR Merge Rate** | {{ stats.merge_rate }}% ({{ stats.prs_merged | fmt_number }} / {{ stats.prs_opened | fmt_number }}) |
 | **Avg PRs / Month** | {{ stats.avg_prs_per_month }} |
 | **Reviews per PR** | {{ stats.reviews_per_pr }} |
-| **Issues Opened** | {{ stats.issues_opened | fmt_number }} |
-| **Issues Closed** | {{ stats.issues_closed | fmt_number }} ({{ stats.issue_close_rate }}%) |
+| **Repos Contributed To** | {{ stats.repos_contributed_to }} |
 
 </td>
 <td width="50%">
@@ -132,12 +157,6 @@
 </td>
 </tr>
 </table>
-
----
-
-## 🛠️ Languages
-
-{{ language_table }}
 
 ---
 

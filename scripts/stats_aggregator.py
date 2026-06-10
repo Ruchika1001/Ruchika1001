@@ -18,6 +18,7 @@ class YearStats:
     prs: int = 0
     issues: int = 0
     reviews: int = 0
+    private: int = 0
     total: int = 0
 
 
@@ -57,6 +58,9 @@ class ProfileStats:
     issues_opened: int = 0
     issues_closed: int = 0
     issue_close_rate: float = 0.0
+    lines_added: int = 0
+    lines_deleted: int = 0
+    net_lines: int = 0
     repos_contributed_to: int = 0
     total_repos_owned: int = 0
 
@@ -212,9 +216,13 @@ def _aggregate_yearly(year_data: list[tuple[int, dict]]) -> list[YearStats]:
         issues = collection.get("totalIssueContributions", 0)
         reviews = collection.get("totalPullRequestReviewContributions", 0)
         total = collection.get("contributionCalendar", {}).get("totalContributions", 0)
+        calendar_total = collection.get("contributionCalendar", {}).get("totalContributions", 0)
+        public_total = commits + prs + issues + reviews
+        private = max(calendar_total - public_total, 0)
         yearly.append(YearStats(
             year=year, commits=commits, prs=prs,
-            issues=issues, reviews=reviews, total=total,
+            issues=issues, reviews=reviews,
+            private=private, total=calendar_total,
         ))
     return yearly
 
@@ -253,6 +261,8 @@ def aggregate(
     year_data: list[tuple[int, dict]],
     search_counts: dict,
     languages: dict[str, int],
+    lines_added: int,
+    lines_deleted: int,
     repos: list[dict],
     user_info: dict,
     username: str,
@@ -317,6 +327,9 @@ def aggregate(
         issues_opened=issues_opened,
         issues_closed=issues_closed,
         issue_close_rate=round(issue_close_rate, 1),
+        lines_added=lines_added,
+        lines_deleted=lines_deleted,
+        net_lines=lines_added - lines_deleted,
         repos_contributed_to=repo_count,
         total_repos_owned=len(non_fork_repos),
         active_days=active_days,
